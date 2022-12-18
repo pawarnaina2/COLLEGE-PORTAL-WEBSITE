@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title>FORM</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="https:// .bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            
+                .navbar{
+        margin-bottom:0px; 
+    }
+    .a{
+                text-align:center;
+                font-size: large;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 80px;
+                font-style: italic;
+                text-decoration:aqua;
+                text-transform: capitalize;
+                color: brown;
+                text-shadow: 0px 0px 10px red;
+
+
+            }
+            </style>
+            <header><nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+        
+                          
+        
+                            
+                        </button>
+                        <a href="#" class="navbar-brand">T JOHN COLLEGE</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="file:///C:/htttml11/div.html" target="_parent" class="a" >HOME</a></li>
+                            <li><a href="#GALLERY" class="a">GALLAERY</a></li>
+                            <li><a href="#Contact" class="a">CONTACT</a></li>
+                            <li> <tr>
+                             
+                            
+                                <td> <a  href="file:///C:/htttml11/feestructure.html" target="_blank" href="#FEES" class="a">FEES</a></td>
+                               
+                               
+                           </tr></li>
+                            <li>
+                                <tr>
+                             
+                            
+                             <td> <a  href="file:///C:/htttml11/form.html" target="_blank" href="#ADMISSION FORM" class="a">ADMISSION FORM</a></td>
+                            
+                            
+                        </tr>
+                          </li>
+                          <li>
+                            <tr>
+                         
+                        
+                         <td> <a  href="file:///C:/htttml11/alumni.html" target="_blank" href="#OUR ALUMNI" class="a">OUR ALUMNI</a></td>
+                        
+                        
+                    </tr>
+                      </li>
+                         
+                          
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><tr><td><a href="file:///C:/htttml11/login.html" target="_blank" class="a"><span class="glyphicon glyphicon-log-in"></span>admin LOGIN</a></td></tr></li>
+                            
+                            <li><a href="file:///C:/htttml11/login.html" target="_blank" class="a"><span class="glyphicon glyphicon-user"></span>USER</a></li>
+        
+                            
+        
+                        </ul>
+        
+                    </div>
+                </div>
+            
+            </nav>
+        </style>
+        <h1 align="center"><u>A SIMPLE FORM</u> </h1>
+        <style>
+            input[type=text],input[type=password],input[type=email],input[type=submit],input[type=checkbox],input[type=date],input[type=number],input[type=tel],input[type=time],input[type=file],input[type=password],input[type=radio]{
+                border-radius: 30px;
+                box-shadow: 10px 10px 10px rebeccapurple;
+                height: 40px;
+                width: 300px;
+
+            }
+            textarea{
+                border-radius: 30px;
+                box-shadow: 10px 10px 10px rebeccapurple;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <table align="center" border="1"  width="50%" cellspacing="20" cellpading="20" >
+            <form>
+                <tr>
+                    <td><label>USERNAME :</label></td>
+                    <td><input type="text" name="yourname" id="yourname" placeholder="ENTER YOUR NAME" autofocus required></td>
+                </tr>
+                <tr>
+                    <td><label>EMAIL ID :</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL" autofocus required></td>
+                </tr>
+                <tr>
+                    <td><label>GENDER :</label></td>
+                    <td><input type="radio" name="MALE" id="MALE" > MALE
+                        <input type="radio" name="MALE" id="FEMALE" checked >FEMALE</td>
+                </tr>
+                <tr>
+                    <td><label>LANGUAGES :</label></td>
+                    <td><input type="checkbox" name="eng" id="eng" > ENGLISH
+                        <input type="checkbox" name="hin" id="hin" checked >HINDI
+                        <input type="checkbox" name="tam" id="tam" checked >TAMIL
+                        <input type="checkbox" name="kan" id="kan" checked >KANNADA</td>
+                </tr>
+                <tr>
+                    <td><label>DOB:</label></td>
+                    <td><input type="date" name="date" id="date" required  min="1947-02-10" max="2050-02-10"></td>
+                </tr>
+                <tr>
+                    <td><label>ID NUMBER :</label></td>
+                    <td><input type="number" name="id number" id="id number" placeholder="ENTER YOUR ID NUMBER"  required></td>
+
+                </tr>
+                <tr>
+                    <td><label>PHONE NUMBER :</label></td>
+                    <td><input type="tel" name="tel" id="tel" maxlength="10" placeholder="8888888888" required></td>
+                </tr>
+                <tr>
+                    <td><label>TIME :</label></td>
+                    <td><input type="time" name="TIME" id="TIME"  required></td>
+                </tr>
+                <tr>
+                    <td><label>COURSES :</label></td>
+                    <td><select  name="courses" id="courses">
+                        <optgroup label="COURSES">
+                        <option name="BECSE">BECSE</option>
+                        <option name="COMMERSE">COMMERSE</option>
+                    </optgroup>
+                        <optgroup label="ADDITIONAL COURSES">
+                        <option name="PYTHON">PYTHON</option>
+                        <option name="JAVA">JAVA</option>
+                    </optgroup>
+
+                    </select>
+                    </td>
+                </tr>
+                <TR>
+                    <td><label>HOME ADDRESS:</label></td>
+                    <TD><textarea rows="10" cols="65"></textarea></TD>
+                </TR>
+                <tr>
+                    <td><label>COUNTRY :</label></td>
+                    <td><input type="text" name="country" list="l1">
+                    <datalist id="l1">
+                        <option>INDIA</option>
+                        <option>PAKISTAN</option>
+                        <option>AFGANISTAN</option>
+                        <option>SRILANKA</option>
+                        <option>KOREA</option>
+                        <option>SOUTH AFRICA</option>
+                    </datalist></td>
+                </tr>
+                <tr>
+                    <td><label>PROFILE PIC :</label></td>
+                    <td><input type="file" name="pic" id="pic"></td>
+                </tr>
+                <tr>
+                    <td><label>PASSWORD :</label></td>
+                    <td><input type="password" name="password" id="password"</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit"></td>
+                </tr>
+                    
+
+                    
+                
+            </form>
+        </table>
+    </body>
+</html>
